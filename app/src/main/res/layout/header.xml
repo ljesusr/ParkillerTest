@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@color/main_color_transparent"
+     >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restart"
+        android:textColor="@color/main_text_color"
+        android:id="@+id/btn_start"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_push_effect"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:onClick="startApp"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/satelite"
+        android:textColor="@color/main_text_color"
+        android:id="@+id/btn_satelite"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_push_effect"
+        android:layout_alignParentTop="true"
+        android:onClick="satelliteMap"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal"
+        android:textColor="@color/main_text_color"
+        android:id="@+id/btn_hibrido"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_push_effect"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btn_satelite"
+        android:onClick="hybridMap"
+        />
+
+</RelativeLayout>

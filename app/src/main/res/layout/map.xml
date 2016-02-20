@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+<!-- Header aligned to top -->
+    <include layout="@layout/header" />
+    <!-- Footer aligned to bottom -->
+    <include layout="@layout/footer"
+        android:id="@+id/footer" />
+
+
+    <AutoCompleteTextView
+    android:id="@+id/tv_direccion"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:padding="5dp"
+    android:textSize="20dp"
+    android:hint="Ingresar Direccion"
+    android:textColor="@color/main_text_color"
+    android:textColorHint="@color/main_text_color"
+    android:background="@drawable/tv_background"
+    android:layout_below="@+id/header"
+     >
+        <requestFocus />
+    </AutoCompleteTextView>
+
+
+<ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/return_position"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_push_effect"
+        android:layout_marginRight="15dp"
+        android:layout_above="@+id/footer"
+        android:onClick="returnLastedPosition"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

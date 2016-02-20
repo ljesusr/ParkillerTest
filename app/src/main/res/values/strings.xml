@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Parkiller‏</string>
+    <string name="title_activity_map">Parkiller‏</string>
+    <string name="distance_title">Seleccione una Ubicación</string>
+    <string name="restart">Inciar App</string>
+    <string name="satelite">Satelite</string>
+    <string name="hybrid">Hibrido</string>
+    <string name="title_activity_how_it_work">HowItWorkActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="btnMap">Entrar</string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_color">#35A1E7</color>
+    <color name="main_color_transparent">#CC35A1E7</color>
+    <color name="main_text_color">#FFFFFF</color>
+
+
+    <!--button efect color -->
+    <color name="btn_press">#35A1E7</color>
+    <color name="btn_release">#357FE7</color>
+
+    <!-- circle color -->
+    <color name="circle_10m">#35A1E7</color>
+    <color name="circle_50m">#51FDF8</color>
+    <color name="circle_100m">#46FA6D</color>
+    <color name="circle_150m">#FFF36F</color>
+    <color name="circle_200m">#FF2800</color>
+</resources>
+
